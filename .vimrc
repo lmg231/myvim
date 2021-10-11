@@ -23,8 +23,6 @@ set ignorecase
 set smartcase                 
 
 set mouse-=a
-let &t_ut=''
-set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -38,6 +36,7 @@ set cursorline
 set scrolloff=5
 
 call plug#begin('~/.vim/plugged')
+"Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'mattn/emmet-vim'
@@ -48,7 +47,7 @@ call plug#end()
 
 set t_Co=256
 set termguicolors
-set background=dark
+set background=light
 colorscheme gruvbox 
 
 nnoremap k gk
